@@ -1,12 +1,9 @@
 import java.util.Scanner;
 public class if_20150805_11 {
-
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
+		System.out.println("請輸入大寫或小寫的英文字母");
 		char[] a = scn.next().toCharArray();
 		for(int i=0;i<a.length;i++){
 			if(a[i]>=97 && a[i]<=122){
